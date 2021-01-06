@@ -5,14 +5,14 @@ var mouseImg1,mouseImg2,mouseImg3;
 
 function preload() {
     //load the images here
-    bgImg = loadImage("images/garden.png");
+    bgImg = loadImage("garden.png");
 
-    catImg1= loadAnimation("images/tomOne.png");
-    catImg2=loadAnimation("images/tomTwo.png","images/tomThree.png");
-    catImg3= loadAnimation("images/tomFour.png");
-    mouseImg1=loadAnimation("images/jerryOne.png");
-    mouseImg2= loadAnimation("images/jerryTwo.png","images/jerryThree.png");
-    mouseImg3=loadAnimation("images/jerryFour.png");
+    catImg1= loadAnimation("tomOne.png");
+    catImg2=loadAnimation("tomTwo.png","tomThree.png");
+    catImg3= loadAnimation("tomFour.png");
+    mouseImg1=loadAnimation("jerryOne.png");
+    mouseImg2= loadAnimation("jerryTwo.png","jerryThree.png");
+    mouseImg3=loadAnimation("jerryFour.png");
 
 }
 
